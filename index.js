@@ -14,7 +14,7 @@ let nombrearchivo = prompt("Ingrese Nombre del Archivo ");
 let extensionArchivo = prompt("Ingrese Nombre de la Extension ");
 let indicadorEconomico = prompt("Ingrese Nombre del Indicador Economico ");
 let cantidad = prompt("Ingrese Cantidad de Pesos a Cambiar ");
-console.log(nombrearchivo, extensionArchivo, indicadorEconomico, cantidad);
+//console.log(nombrearchivo, extensionArchivo, indicadorEconomico, cantidad);
 
 leer()
 async function leer() {
@@ -23,17 +23,18 @@ async function leer() {
       let data = await response.json();
         
         let valorDolar = data.serie[0].valor;
-        console.log(valorDolar * cantidad);
+        console.log(valorDolar);
         
     const hoy = new Date();
-    let mensaje =`A la fecha: ${hoy.toISOString()}
+    let mensaje =`\n A la fecha: ${hoy.toISOString()}
     Fue realizada la cotizacion de los siguientes datos
     Cantidad de pesos a convertir: ${cantidad} pesos
     Convertido a "${indicadorEconomico}" da un total de: 
-    $${cantidad * valorDolar}`;
+    $${cantidad / valorDolar} \n`;
         path += nombrearchivo + extensionArchivo
     archivo.appendFileSync(path, mensaje);
 
+    archivo.readFileSync(path);
         
 
     } catch (err) {

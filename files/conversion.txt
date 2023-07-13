@@ -2,4 +2,18 @@ A la fecha: 2023-07-13T00:05:49.982Z
     Fue realizada la cotizacion de los siguientes datos
     Cantidad de pesos a convertir: 250000 pesos
     Convertido a "dolar" da un total de: 
-    $204195000
+    $204195000A la fecha: 2023-07-13T00:19:03.230Z
+    Fue realizada la cotizacion de los siguientes datos
+    Cantidad de pesos a convertir: 250000 pesos
+    Convertido a "dolar" da un total de: 
+    $306.0799725752345
+ A la fecha: 2023-07-13T00:30:37.938Z
+    Fue realizada la cotizacion de los siguientes datos
+    Cantidad de pesos a convertir: 300000 pesos
+    Convertido a "dolar" da un total de: 
+    $367.29596709028135
+ A la fecha: 2023-07-13T00:33:41.712Z
+    Fue realizada la cotizacion de los siguientes datos
+    Cantidad de pesos a convertir: 250000 pesos
+    Convertido a "dolar" da un total de: 
+    $306.0799725752345 
